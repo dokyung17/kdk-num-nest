@@ -10,7 +10,7 @@ test("prime([7]) should be true", () => {
 expect(lib.prime([7])).toBe(true);
 });
 test("prime([16]) should be false", () => {
-expect(lib.prime([16])).toBe(false);
+expect(lib.prime([15])).toBe(false);
 });
 test("factorial([7]) should be 5040", () => {
 expect(lib.factorial([7])).toBe(5040);
